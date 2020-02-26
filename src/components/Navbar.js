@@ -3,7 +3,10 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav
+        className="navbar navbar-expand-lg navbar-light fixed-top bg-light"
+        id="navbar"
+      >
         <a className="navbar-brand" href="#">
           Baking Bad
         </a>
@@ -19,15 +22,10 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
                 Home <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pris
               </a>
             </li>
             <li className="nav-item">

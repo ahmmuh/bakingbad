@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 .navbar {
   width: 100%;
+  color: white;
 }
 
 .header {
@@ -30,7 +32,11 @@ footer {
   height: 40vh;
   padding: 10px;
 }
+
 footer a {
   color: white;
+}
 
+* h1, h2, h3 {
+  font-family: 'Indie Flower';
 }
