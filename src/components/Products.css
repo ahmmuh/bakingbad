@@ -6,7 +6,7 @@
 }
 
 .container h1 {
-    margin-top: 270px;
+    margin-top: 100px;
     color: #000;
     text-align: center;
 }
@@ -24,6 +24,10 @@
     border-radius: 2px;
 }
 
+.container img:hover {
+    transform: scale(.9);
+}
+
 .col {
     text-align: center;
 }
@@ -34,6 +38,11 @@
     background: linear-gradient(to right, #EF629F, #EECDA3);
     width: 100%;
     margin: 20px 0;
+}
+
+.btn:hover {
+    transition: all 1s ease-in-out;
+    background-color: #222;
 }
 
 @media(max-width:768px) {

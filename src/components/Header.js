@@ -8,21 +8,21 @@ class Header extends Component {
       <header className="header">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
           <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="d-block w-100" src={slide4} alt="First slide" />
+              <img className="d-block w-100" src={slide3} alt="First slide" />
             </div>
             <div className="carousel-item">
               <img
@@ -33,7 +33,7 @@ class Header extends Component {
               />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src={slide3} alt="Third slide" />
+              <img className="d-block w-100" src={slide4} alt="Third slide" />
             </div>
           </div>
           <a

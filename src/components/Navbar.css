@@ -7,8 +7,20 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#navbar .navbar-brand {
+    color: rgb(221, 230, 220);
+    font-size: 40px;
+    font-family: Kaushan Script;
+    text-shadow: 2px 3px 3px rgb(7, 24, 7);
+    font-weight: bold;
+}
 
 #navbar ul li a {
-    color: white;
-    font-size: 20px;
+    font-size: 22px;
+    color: rgb(248, 245, 245);
+    text-shadow: 3px 2px 3px rgb(63, 119, 31);
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
 }

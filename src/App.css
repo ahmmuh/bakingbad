@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim|Kaushan+Script&display=swap');
 .navbar {
   width: 100%;
   color: white;
 }
 
 .header {
-  height: 60vh;
+  height: 100vh;
 }
 
 .header img {
@@ -39,4 +40,13 @@ footer a {
 
 * h1, h2, h3 {
   font-family: 'Indie Flower';
+}
+
+.error {
+  text-align: center;
+  background-color: red;
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px;
+  color: white;
 }
